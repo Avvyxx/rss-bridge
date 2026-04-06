@@ -5,6 +5,7 @@ declare(strict_types=1);
 class InvidiousHTMLBridge extends BridgeAbstract
 {
     const NAME = 'Invidious HTML Scraper';
+    const URI = 'https://yewtu.be';
     const DESCRIPTION = 'Scrapes Invidious without relying on the Invidious RSS endpoint';
     const MAINTAINER = 'Avvyxx';
     const CACHE_TIMEOUT = 60 * 60 * 24; // 24 hours
